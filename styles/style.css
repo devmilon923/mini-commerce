@@ -17,12 +17,22 @@
   padding: 10px 24px 10px 24px;
   background: rgb(224, 44, 109);
 }
-.container{
-    width: 80%;
-    margin: 0 auto;
+.container {
+  width: 70%;
+  margin: 0 auto;
 }
-nav{
-    padding: 25px 0px;
+nav {
+  padding: 25px 0px;
+}
+main > section {
+  margin: 90px 0px;
+}
+.text-center {
+  text-align: center;
+}
+footer {
+  background: rgb(5, 5, 19);
+  padding: 50px 0px;
 }
 /* Css color variable */
 :root {
@@ -31,24 +41,157 @@ nav{
   --description-color: rgb(120, 120, 133);
 }
 
+.navbar {
+  justify-content: space-between;
+}
+.navbar h1 {
+  color: var(--header-color);
+  font-size: 2.2rem;
+}
 
-.navbar{
-    justify-content: space-between;
+.nav-manu {
+  gap: 35px;
+  justify-content: space-between;
 }
-.navbar h1{
-    color: var(--header-color);
-    font-size: 2.2rem;
+.nav-manu a {
+  text-decoration: none;
+  color: var(--header-color);
+  font-size: 1.2rem;
+}
+.nav-manu i {
+  color: var(--main-color);
 }
 
-.nav-manu{
-    gap: 35px;
-    justify-content: space-between;
+/* Hero section */
+.hero-section {
+  gap: 50px;
+  justify-content: space-between;
+  margin-top: 20px;
 }
-.nav-manu a{
-    text-decoration: none;
-    color: var(--header-color);
-    font-size: 1.2rem;
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
-.nav-manu i{
-    color: var(--main-color);
+.hero-content h1 {
+  font-size: 3.5rem;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  color: var(--description-color);
+  width: 80%;
+}
+.hero-content > div > button {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+.hero-product {
+  background-image: url(./../images/Circle\ design.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-product img {
+  width: 100%;
+}
+.sponsor {
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+/* Product sections */
+
+.product-container > h1 {
+  font-size: 2.5rem;
+  color: var(--header-color);
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 30px;
+  margin-top: 25px;
+}
+.product-card {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.027);
+}
+.product-card img {
+  width: 100%;
+}
+.product-description {
+  width: 80%;
+  color: var(--description-color);
+  font-weight: 700;
+}
+.product-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.product-name {
+  color: var(--header-color);
+}
+.see-more {
+  display: flex;
+  justify-content: end;
+  padding: 40px 0px;
+  align-items: center;
+}
+.see-more > a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+/* Feature section */
+.featured-section {
+  justify-content: space-between;
+  gap: 100px;
+}
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feature-content p {
+  font-size: 1.2rem;
+  color: var(--description-color);
+  font-weight: 600;
+}
+.feature-content h1 {
+  font-size: 2.5rem;
+  color: var(--header-color);
+}
+.feature-content button {
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  font-weight: 600;
+}
+
+
+/* Footer */
+.footer-container{
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-container h1{
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
 }
