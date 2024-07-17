@@ -271,7 +271,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 844px) {
+@media screen and (min-width: 576px) and (max-width: 1070px) {
   .brand-logo {
     font-size: 28px !important;
   }
