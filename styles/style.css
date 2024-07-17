@@ -269,6 +269,12 @@ footer {
   .footer-container {
     width: 100%;
   }
+  .footer-container h1{
+    font-size: 24px;
+  }
+  .footer-container p{
+    font-size: 13px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 1070px) {
