@@ -1,1 +1,1 @@
-This site not proper responsive
+This site fully responsive now for smaller, medium and large device
