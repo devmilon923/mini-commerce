@@ -224,11 +224,11 @@ footer {
   }
   .sponsor {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
   }
   .sponsor img {
-    width: 75%;
+    width: 100%;
   }
   .product {
     display: grid;
@@ -302,11 +302,11 @@ footer {
   }
   .sponsor {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 30px;
   }
   .sponsor img {
-    width: 75%;
+    width: 100%;
   }
   .product {
     display: grid;
